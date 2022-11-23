@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+body {
+    background-image: url(../Asset/Imagen/cancha.jpg);
+}
+
+header {
+    display: flex;
+    background-image: linear-gradient(0deg, yellow 5%, black 80%);
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 40px;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav a {
+    font-size: 2em;
+    font-weight: 600;
+    padding: 15px;
+}
+
+nav a:hover {
+    background-color: yellow;
+}
+
+.logo img:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.titulo {
+    color: black;
+    font-size: 3em;
+    text-align: center;
+}
+
+/*pagina de inicio*/
+
+#principal {
+    display: grid;
+    grid-template-columns: 85% 10%;
+    grid-template-rows: 700px;
+    column-gap: 5px;
+    margin: 10px;
+}
+
+.img-p img {
+    height: 100%;
+    width: 100%;
+}
+
+.sponsors {
+    float: right;
+}
+
+/*pagina de predio*/
+
+#galeria {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 470px 470px 470x;
+    gap: 10px;
+    margin: 10px;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+}
+
+.item img:hover {
+    transform: scale(1.2)
+}
+
+/*pagina de servicios*/
+
+.serv {
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    background-color:rgba(128, 128, 128, 0.3);
+    margin: 5px 10px 5px 10px;
+    padding: 15px;
+    border: solid 5px black;
+}
+
+.serv h2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.foto {
+    height: 100%;
+    padding-left: 30px;
+}
+
+/*paina FAQ*/
+
+.faq {
+    background-color:rgba(128, 128, 128, 0.3);
+    margin: 10px 15px;
+    padding: 5px 20px;
+    border: solid 5px black;
+    display: block;
+}
+
+.preg {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.list {
+    padding-left: 10px;
+}
+
+.ubi{
+    padding: 5px;
+}
+
+/*pagina contacto*/
+
+.info {
+    color: black;
+    background-size: 100%;
+    width: 30em;
+    height: auto;
+    font-size: 2em;
+    margin: 1em auto;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.cont {
+    margin: 10px;
+}
+
+legend {
+    font-size: 1.5em;
+}
+
+.canch {
+    color: black;
+}
+
+.cont input:hover {
+    transition: 1s;
+    transform: scale(1.5);
+}
+
+/*footer*/
+
+#pie {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rrss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.wsp-icono {
+    position: fixed;
+    bottom: 10px;
+    right: 1em;
+}
+
+.copi p {
+    font-size: 1em;
+    margin: 5px;
+}
